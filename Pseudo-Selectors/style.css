@@ -1,0 +1,17 @@
+a:link{
+    color:red;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    background-color: rgba(95, 158, 160, 0.651);
+    color: white;
+    font-size: 1.2rem;
+}
+
+a:active{
+    color: teal;
+}

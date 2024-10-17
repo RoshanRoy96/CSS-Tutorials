@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+div {
+    height: 100vh;
+    background-image: radial-gradient(rgba(124, 0, 128,0.5),rgba(255, 166, 0,0.478)),url("https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* filter: blur(3px); */
+    /* filter: brightness(40%); */
+    /* filter: contrast(50%); */
+    /* filter: grayscale(70%);  */
+    filter: saturate(100%);
+}

@@ -1,0 +1,16 @@
+/* syntax for shadow: x-axis, y-axis, blurness, color */
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(100, 100, 148);
+    box-shadow: 4px 5px 4px orangered;
+}
+
+h1 {
+    background-color: black;
+    text-shadow: 4px 5px 2px red;
+    padding: 5px 0;
+    font-size: 4rem;
+    text-align: center;
+}

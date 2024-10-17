@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+div{
+    height: 100vh;
+    background-color: greenyellow;
+    background-image: url("https://images.pexels.com/photos/26150745/pexels-photo-26150745/free-photo-of-green-grassland-with-trees-in-countryside.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}

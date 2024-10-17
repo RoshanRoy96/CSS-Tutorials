@@ -1,0 +1,38 @@
+.heading1{
+    color: rgba(255, 0, 0, 0.562);
+    font-size: 3em;
+}
+
+.heading2{
+    color: rgba(0, 128, 0, 0.541);
+    font-size: 4rem;
+}
+
+.heading3{
+    color: rgba(255, 0, 191, 0.637);
+    font-size: 5em;
+}
+
+#one{
+    background-color: rgba(0, 0, 255, 0.473);
+    color: white;
+    font-size: 2rem;
+}
+
+div .text{
+    color: teal;
+}
+
+div p{
+    color: cornflowerblue;
+    font-size: 1.5em;
+}
+
+div>p{
+    background-color: chocolate;
+    color:white;
+}
+
+div+p{
+    color:blue;
+}

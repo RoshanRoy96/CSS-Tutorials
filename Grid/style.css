@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background: rgb(34,34,34);
+    padding: 20px;
+    height: 100vh;
+    /* Grid code */
+    display: grid;
+    /* grid-template-columns:- specifies the number and the width of the column in a grid. (100px is written 3 times because we need 3 columns of 100px.) */
+    /* grid-template-columns: 100px 100px 100px; */
+    /* Another way for writing grid-template-columns without repeating values 3 times. */
+    grid-template-columns: repeat(3,100px);
+    /* grid-template-rows:- specifies the number and the width of the rows in a grid */
+    /* grid-template-rows: 100px 100px 100px; */
+     /* Another way for writing grid-template-rows without repeating values 3 times. */
+    grid-template-rows: repeat(3,100px);
+    /* grid-gap:- for providing gaps in grid. (No need to use margins) */
+    grid-gap: 10px;
+    /* fr:- automatically calculates the layout division in a grid. */
+    /* instead of writing 100px in grid-template-rows and grid-template-columns we can write '1fr' */
+    /* grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr); */
+
+    /* minmax function:- no shrinking when we adjust screen size */
+    /* grid-template-columns: 1fr minmax(200px,1fr) 1fr; */
+    /* grid-template-rows: repeat(3,1fr); */
+
+    /* autofit */
+    /* grid-template-columns: repeat(autofit,200px);
+    grid-template-rows: repeat(3,100px); */
+
+    /* justify-content: center/flex-start/flex-end/space-around/space-between; */
+
+    /* align-items: center/flex-start/flex-end/space-around/space-between; */
+}
+
+/* spanning an element */
+
+header {
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+
+    /* shortcut for writing grid-column-start and grid-column-end */
+    /* grid-column: 1/3;
+    grid-row: 1/3; */
+
+    /* order-property:- starts from zero. elements in the first row are zero. */
+    /* order: 1; */
+}
+
+aside {
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* order: 2; */
+}
+
+
+.s {
+    padding: 20px;
+    background-color: rgb(84,84,84);
+    text-align: center;
+    color: #fff;
+}
+
+/* Note:- grid-area & grid-template-areas refer. */

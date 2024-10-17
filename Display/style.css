@@ -1,0 +1,25 @@
+span {
+    background-color: teal;
+    color: white;
+}
+
+.block {
+    background-color: aqua;
+    height: 200px;
+}
+
+.blockToInline {
+    background-color: chartreuse;
+}
+
+.inlineToBlock {
+    background-color: red;
+    display: block;
+}
+
+a {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    display: inline-block;
+}

@@ -1,0 +1,18 @@
+.parent {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: Orange;
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+}
+
+.children {
+    position: relative;
+    left: 100px;
+    /* inheriting the properties of parent element in children also using 'inherit' */
+    background-color: inherit;
+    width: inherit;
+    height: inherit;
+}

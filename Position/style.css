@@ -1,0 +1,36 @@
+.container {
+    background-color: rgb(83, 81, 81);
+    height: 500px;
+    width: 90%;
+}
+
+.d {
+    width: 100px;
+    height: 100px;
+}
+
+.one {
+    background-color: red;
+    position: relative;
+    left: 200px;
+}
+
+.two {
+    background-color: blue;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.three {
+    background-color: teal;
+    position: fixed;
+    top: 200px;
+    left: 200px;
+}
+
+.four {
+    background-color: yellow;
+    position: sticky;
+    top: 200px;
+}

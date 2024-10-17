@@ -1,0 +1,22 @@
+div{
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+    border: 2px solid red;
+    /* border-right: 2px solid black;
+   border-left: 2px solid teal;
+   border-bottom: 2px solid orange;
+   border-top: 2px solid blueviolet; */
+   /* padding-top: 40px;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   text-align: right;
+   padding-right: 15px; */
+   padding: 20px 10px;
+   /* margin: 50px; */
+   /* margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 10px; */
+   margin: 20px 0;
+}

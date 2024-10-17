@@ -1,0 +1,22 @@
+h1{
+    color: blueviolet;
+}
+
+h2{
+    /* color: rgb(207, 30, 89); */
+    color: rgba(255,0,0,0.3) 
+    /* a-for alpha transparency(opacity) */
+}
+
+h3{
+    color: #3cb371;
+}
+
+h4{
+    color: hsl(142,47%,44%);
+}
+
+h5{
+    background-color: teal;
+    color: white;
+}

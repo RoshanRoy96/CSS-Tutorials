@@ -1,0 +1,43 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+section{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;;
+}
+
+.percentage{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+html{
+    font-size: 2em;
+    /* here html is the element and the text inside p tag is two times the size of correct font. */
+}
+
+.rem {
+    font-size: 16px;
+}
+
+.rem p {
+    font-size: 3rem;
+}
+
+.vw{
+    background-color: teal;
+    width: 20vw;
+    height: 100px;
+}
+
+.vh {
+    margin-top: 20px;
+    width: 50vw;
+    height: 50vh;
+    background-color: brown;
+}
